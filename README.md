@@ -4,7 +4,9 @@ This is a pytorch implementation of the paper: [StarGAN-VC2:Rethinking Condition
 
 **The converted voice examples are in *converted directory*. The sound quality will improve if more training epochs (~200000) are done.
 
-** VCTK database has been used to train the model with 70 speakers. The convereted samples are a bit noisy because of VCTK data but it can be improved if other clean databases are used.
+**VCTK database has been used to train the model with 70 speakers. The convereted samples are a bit noisy because of VCTK data but it can be improved if other clean databases are used.
+
+**Omitted PS in Generator network.
 
 ## [Dependencies]
 - Python 3.5+
